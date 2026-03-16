@@ -63,7 +63,7 @@ You need a FastAPI backend running that provides the following endpoints:
 - `GET /api/analysis/status/{session_id}` - Check progress
 - `GET /api/results/{session_id}` - Get results
 
-By default, the application expects the FastAPI backend at `http://localhost:8000`. You can configure this with the `FASTAPI_BASE_URL` environment variable.
+By default, the application expects the FastAPI backend at `https://api.optimiseurbrand.tech`. You can configure this with the `FASTAPI_BASE_URL` environment variable.
 
 ## Getting Started
 
@@ -85,7 +85,7 @@ By default, the application expects the FastAPI backend at `http://localhost:800
 
 ### Environment Variables
 
-- `FASTAPI_BASE_URL`: Base URL for the FastAPI backend (default: `http://localhost:8000`)
+- `FASTAPI_BASE_URL`: Base URL for the FastAPI backend (default: `https://api.optimiseurbrand.tech`)
 
 ## Usage Flow
 

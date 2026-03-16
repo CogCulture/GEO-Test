@@ -88,7 +88,7 @@ export function DashboardPromptManager({
       setLoadingCohorts(true);
       try {
         const token = localStorage.getItem("token");
-        const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+        const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.optimiseurbrand.tech";
         const response = await fetch(`${API_BASE_URL}/api/analysis/cohorts/${sessionId}`, {
           headers: { "Authorization": `Bearer ${token}` }
         });

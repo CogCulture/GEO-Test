@@ -25,7 +25,7 @@ interface VisibilityChartProps {
   chartId?: string; // NEW: Allow custom ID for PDF capture
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.optimiseurbrand.tech";
 
 export function VisibilityChart({
   brandName,

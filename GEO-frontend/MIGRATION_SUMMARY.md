@@ -112,8 +112,8 @@ GEO-frontend/
 
 Create/update `.env.local`:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:3000
-FASTAPI_BASE_URL=http://localhost:8000
+NEXT_PUBLIC_API_URL=https://optimiseurbrand.tech
+FASTAPI_BASE_URL=https://api.optimiseurbrand.tech
 ```
 
 **Important Notes:**
@@ -178,7 +178,7 @@ The following directories can be deleted after verifying everything works:
 
 3. **Open browser:**
    ```
-   http://localhost:3000
+   https://optimiseurbrand.tech
    ```
 
 4. **Verify:**

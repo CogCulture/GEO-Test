@@ -2,7 +2,7 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import axios from "axios";
 
-const FASTAPI_BASE_URL = process.env.FASTAPI_BASE_URL || "http://localhost:8000";
+const FASTAPI_BASE_URL = process.env.FASTAPI_BASE_URL || "https://api.optimiseurbrand.tech";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Proxy route for starting analysis

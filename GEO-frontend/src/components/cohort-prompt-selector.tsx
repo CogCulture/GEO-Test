@@ -12,7 +12,7 @@ import { AVAILABLE_LLMS } from "@shared/schema";
 
 import { useAuth } from "@/contexts/AuthContext";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.optimiseurbrand.tech";
 
 const FRONTEND_PROMPT_LIMITS: Record<string, { max_prompts_per_project: number }> = {
   "free": { max_prompts_per_project: 2 },

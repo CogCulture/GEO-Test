@@ -52,7 +52,7 @@ JWT_SECRET=your-secret-key-change-in-production
 
 **Frontend (`GEO-frontend/.env.local`):**
 ```
-NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_API_URL=https://api.optimiseurbrand.tech
 ```
 
 ### Step 4: Start Your App
@@ -71,7 +71,7 @@ npm run dev
 
 ### Step 5: Test It! 🎉
 
-1. Open http://localhost:3000
+1. Open https://optimiseurbrand.tech
 2. Click "Get Started"
 3. Fill email and password → Create Account
 4. Now in analysis form
@@ -132,13 +132,13 @@ SELECT * FROM users;
 
 ### 2. Backend Running
 ```
-http://localhost:8000/health
+https://api.optimiseurbrand.tech/health
 -- Should show: {"status": "healthy", ...}
 ```
 
 ### 3. Frontend Running
 ```
-http://localhost:3000
+https://optimiseurbrand.tech
 -- Should load without errors
 ```
 

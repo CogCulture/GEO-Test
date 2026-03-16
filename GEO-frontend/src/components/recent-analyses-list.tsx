@@ -17,7 +17,7 @@ interface AnalysisSession {
   website_url?: string;
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"; // ✅ FIX
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.optimiseurbrand.tech"; // ✅ FIX
 
 export function RecentAnalysesList({ onAnalysisSelect }: RecentAnalysesListProps) {
   const { data, isLoading, error } = useQuery<{ total: number; analyses: AnalysisSession[] }>({

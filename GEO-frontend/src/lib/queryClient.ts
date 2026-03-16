@@ -27,7 +27,7 @@ export async function apiRequest(
   let fullUrl = url;
   if (url.startsWith("/api") || url.startsWith("/")) {
     // Use env var or default to localhost:8000
-    const apiBase = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+    const apiBase = process.env.NEXT_PUBLIC_API_URL || "https://api.optimiseurbrand.tech";
     // Remove double slashes if any (though nice to have, simple concatenation is usually fine if mindful)
     // If apiBase ends with / and url starts with /, remove one.
     const base = apiBase.endsWith("/") ? apiBase.slice(0, -1) : apiBase;

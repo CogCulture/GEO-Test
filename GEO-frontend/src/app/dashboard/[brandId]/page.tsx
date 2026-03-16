@@ -10,7 +10,7 @@ import { Users } from "lucide-react";
 import type { AnalysisResults as AnalysisResultsType } from "@shared/schema";
 import { useAuth } from "@/contexts/AuthContext";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.optimiseurbrand.tech";
 
 export default function BrandDashboard() {
     const params = useParams();

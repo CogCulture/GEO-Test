@@ -44,7 +44,7 @@ interface CitationAnalyticsProps {
     brandName?: string;
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.optimiseurbrand.tech";
 
 export function CitationAnalytics({ sessionId, brandName }: CitationAnalyticsProps) {
     const [data, setData] = useState<DomainCitation[]>([]);

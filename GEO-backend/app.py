@@ -163,8 +163,13 @@ app = FastAPI(
 )
 # ============= CORS MIDDLEWARE =============
 origins = [ # Your current frontend URL
+    "https://optimiseurbrand.tech",
+    "http://optimiseurbrand.tech",
+    "https://www.optimiseurbrand.tech",
+    "http://www.optimiseurbrand.tech",
+    "localhost:3000",
     "http://localhost:3000",
-    os.environ.get("FRONTEND_URL", "http://localhost:3000")
+    os.environ.get("FRONTEND_URL", "https://optimiseurbrand.tech")
 ]
 
 app.add_middleware(

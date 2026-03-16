@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import { Search, ChevronDown } from "lucide-react";
 import { useQuery } from "@tanstack/react-query";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.optimiseurbrand.tech";
 
 interface BrandSelectorProps {
   onBrandSelect: (brand: string) => void;

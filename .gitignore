@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+GEO-frontend/node_modules/
+GEO-backend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+GEO-backend/venv/
+GEO-backend/__pycache__/
+
+# Environment variables (CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+GEO-backend/.env
+GEO-frontend/.env.local
+
+# Next.js build output
+.next/
+GEO-frontend/.next/
+out/
+
+# Build state
+tsconfig.tsbuildinfo
+GEO-frontend/tsconfig.tsbuildinfo
+
+# Local databases and logs
+*.log
+tool_usage_db.json
+GEO-backend/tool_usage_db.json
+GEO-backend/pip_out.txt
+GEO-backend/ver_check.txt
+GEO-backend/paid_path.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+.replit
+replit.md
